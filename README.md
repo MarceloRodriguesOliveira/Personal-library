@@ -1,5 +1,9 @@
 # book-tracker
 
+## Screenshots
+
+![ScreenShot](/screenshots/Screenshot-Gallery.png)
+
 ## Project setup
 ```
 npm install
@@ -15,5 +19,9 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Tools
+
+This project was developed using the Open Library Covers API, which can be found here: 
+
+https://openlibrary.org/dev/docs/api/covers
+
