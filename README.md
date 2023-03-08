@@ -25,3 +25,7 @@ This project was developed using the Open Library Covers API, which can be found
 
 https://openlibrary.org/dev/docs/api/covers
 
+## Fixes
+
+A performance patch will be applied once I get enough experience with vue and already got more comfortable with high level concepts.
+
