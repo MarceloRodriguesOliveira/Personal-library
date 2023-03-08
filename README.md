@@ -1,4 +1,4 @@
-# book-crud
+# book-tracker
 
 ## Project setup
 ```
