@@ -1,4 +1,8 @@
-# book-crud
+# book-tracker
+
+## Screenshots
+
+![ScreenShot](/screenshots/Screenshot-Gallery.png)
 
 ## Project setup
 ```
@@ -15,5 +19,13 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Tools
+
+This project was developed using the Open Library Covers API, which can be found here: 
+
+https://openlibrary.org/dev/docs/api/covers
+
+## Fixes
+
+A performance patch will be applied once I get enough experience with vue and already got more comfortable with high level concepts.
+
