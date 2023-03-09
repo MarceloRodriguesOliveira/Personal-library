@@ -27,5 +27,5 @@ https://openlibrary.org/dev/docs/api/covers
 
 ## Fixes
 
-A performance patch will be applied once I get enough experience with vue and already got more comfortable with high level concepts.
+Fixed performance by adding a simple polling function that constantly calls the function that contains the API calls.
 
