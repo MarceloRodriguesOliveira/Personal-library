@@ -12,6 +12,7 @@
 <script>
 
 
+
 export default {
   name: 'HomeView',
   data(){
@@ -21,20 +22,20 @@ export default {
     }
   },
   methods:{
-    async getBooks(){
-      
+    async pooling(){
+      const timeInMiliseconds = 1000
+
       const req = await fetch("http://localhost:3000/Books")
-      const data  = await req.json()
+      const data = await req.json()
 
       this.books = [...data]
-      console.log('atualizou') 
-
+      setTimeout(() => {
+        this.pooling()
+      }, timeInMiliseconds);
     }
   },
   mounted(){
-    setInterval(() => {
-      this.getBooks()
-    }, 7000);
+    this.pooling()
   }
 }
 </script>
